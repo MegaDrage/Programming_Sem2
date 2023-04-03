@@ -1,0 +1,14 @@
+long long QuickSort(int* A, long long L, long long R);
+long long QuickSort(double* A, long long L, long long R);
+long long BubbleSort(int* A, long long size);
+long long BubbleSort(double* A, long long size);
+long long SelectSort(int* A, long long size);
+long long SelectSort(double* A, long long size);
+long long InsertSort(int* A, long long size);
+long long InsertSort(double* A, long long size);
+long long ShakerSort(int* A, long long size);
+long long ShakerSort(double* A, long long size);
+long long ShellSort(int* A, long long size);
+long long ShellSort(double* A, long long size);
+long long HeapSort(int* A, long long n);
+long long HeapSort(double* A, long long n);

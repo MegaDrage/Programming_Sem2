@@ -1,0 +1,15 @@
+int med(int* A, long long L, long long R);
+double medf(double* A, long long L, long long R);
+void swapArrElem(int* A, int* B);
+void swapArrElemd(double* A, double* B);
+void fillinc(auto* A, long long n);
+void filldec(auto* A, long long n);
+void fillrandint(int* A, long long n);
+void fillrandfloat(double* A, long long n);
+int checksum(auto* A, long long n);
+int runnumber(auto* A, long long n);
+void printmas(auto* A, long long n);
+double timer(long long (*f)(int* , long long), int* A, long long n);
+double timer(long long (*f)(int* , long long, long long), int* A, long long n);
+double timer(long long (*f)(double* , long long), double* A, long long n);
+double timer(long long (*f)(double* , long long, long long), double* A, long long n);
